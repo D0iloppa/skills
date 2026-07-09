@@ -1,3 +1,4 @@
 [submodule "doil-research"]
 	path = doil-research
 	url = https://github.com/D0iloppa/doil-research.git
+	branch = main
