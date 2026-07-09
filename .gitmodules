@@ -2,3 +2,7 @@
 	path = doil-research
 	url = https://github.com/D0iloppa/doil-research.git
 	branch = main
+[submodule "doil-bootstrap"]
+	path = doil-bootstrap
+	url = https://github.com/D0iloppa/doil-bootstrap.git
+	branch = main
