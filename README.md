@@ -9,6 +9,7 @@
 |------|------|------|
 | [`doil-research`](https://github.com/D0iloppa/doil-research) | `D0iloppa/doil-research` | 다중 출처 심층 리서치 오케스트레이션(Opus 계획·판단 / Sonnet 서브에이전트 크롤링), raw-first 수집, 순차·세션간 이어받기(핸드오프 md) |
 | [`doil-bootstrap`](https://github.com/D0iloppa/doil-bootstrap) | `D0iloppa/doil-bootstrap` | Doness 보일러플레이트 기반 신규 프로젝트 부트스트랩 — ① 범용 코어(클론·아키결정·문서/카파시 init·격리 repo) + ② 배선 층(공개 템플릿 + private 오버레이 스크립트 주입) |
+| [`doil-supervise`](https://github.com/D0iloppa/doil-supervise) | `D0iloppa/doil-supervise` | 직접 구현 대신 감독(supervisor)으로 오케스트레이션 — 요청 이해 → 표준용어 명명(terminology grounding) → 하위과업별 모델 라우팅(근거 제시) → 분석·구현 서브에이전트 위임 → 종합. 진행 중 제어(add/edit/stop/status) |
 
 ## 설치
 
