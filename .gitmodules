@@ -10,3 +10,7 @@
 	path = doil-supervise
 	url = https://github.com/D0iloppa/doil-supervise.git
 	branch = main
+[submodule "ai-echo"]
+	path = ai-echo
+	url = https://github.com/D0iloppa/ai-echo.git
+	branch = main
