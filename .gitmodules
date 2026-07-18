@@ -14,3 +14,7 @@
 	path = ai-echo
 	url = https://github.com/D0iloppa/ai-echo.git
 	branch = main
+[submodule "sun-sang"]
+	path = sun-sang
+	url = https://github.com/D0iloppa/sun-sang.git
+	branch = main
