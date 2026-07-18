@@ -11,6 +11,7 @@
 | [`doil-bootstrap`](https://github.com/D0iloppa/doil-bootstrap) | `D0iloppa/doil-bootstrap` | Doness 보일러플레이트 기반 신규 프로젝트 부트스트랩 — ① 범용 코어(클론·아키결정·문서/카파시 init·격리 repo) + ② 배선 층(공개 템플릿 + private 오버레이 스크립트 주입) |
 | [`doil-supervise`](https://github.com/D0iloppa/doil-supervise) | `D0iloppa/doil-supervise` | 직접 구현 대신 감독(supervisor)으로 오케스트레이션 — 요청 이해 → 표준용어 명명(terminology grounding) → 하위과업별 모델 라우팅(근거 제시) → 분석·구현 서브에이전트 위임 → 종합. 진행 중 제어(add/edit/stop/status) |
 | [`ai-echo`](./ai-echo) | (로컬 폴더, 서브모듈 아님) | 개인 말투(idiolect) 프로파일링 → 이메일/카톡 답장 **초안** 생성. AI 대행 아님 — 항상 초안 제시, 최종 검토·발송은 사용자 |
+| [`sun-sang`](./sun-sang) | (로컬 폴더, 서브모듈 아님) | 탑다운+파인만 학습법 AI 튜터 — dJinn 지식트리(canonical 설명+rubric 영속화)를 근거로 사용자의 설명을 검증(grounded verify), verify_state 4상태 진척 관리, 학습 데이터는 `~/.sun-sang`에 귀속, Notion 미러링(옵션) |
 
 ## 설치
 
