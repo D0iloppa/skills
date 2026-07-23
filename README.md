@@ -12,6 +12,7 @@
 | [`doil-supervise`](https://github.com/D0iloppa/doil-supervise) | `D0iloppa/doil-supervise` | 직접 구현 대신 감독(supervisor)으로 오케스트레이션 — 요청 이해 → 표준용어 명명(terminology grounding) → 하위과업별 모델 라우팅(근거 제시) → 분석·구현 서브에이전트 위임 → 종합. 진행 중 제어(add/edit/stop/status) |
 | [`ai-echo`](./ai-echo) | (로컬 폴더, 서브모듈 아님) | 개인 말투(idiolect) 프로파일링 → 이메일/카톡 답장 **초안** 생성. AI 대행 아님 — 항상 초안 제시, 최종 검토·발송은 사용자 |
 | [`sun-sang`](https://github.com/D0iloppa/sun-sang) | `D0iloppa/sun-sang` | 탑다운+파인만 학습법 AI 튜터 — dJinn 지식트리(canonical 설명+rubric 영속화)를 근거로 사용자의 설명을 검증(grounded verify), verify_state 4상태 진척 관리, 학습 데이터는 `~/.sun-sang`에 귀속, Notion 미러링(옵션) |
+| [`doil-secretary`](./doil-secretary) | (로컬 폴더, 서브모듈 아님) | 일정/기념일/루틴 관리 AI 비서 — dJinn 그래프 카탈로그(엣지=노드 JSON 필드)에 영속화, 자동 cron/push 알림 없이 풀(pull) 기반, 반복 규칙은 결정적 코드로 전개, 데이터는 `~/.doil-secretary`에 귀속, ai-echo/sun-sang/doil-research/doil-supervise로의 연계는 큐레이션(제안)만 |
 
 ## 설치
 

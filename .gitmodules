@@ -18,3 +18,7 @@
 	path = sun-sang
 	url = https://github.com/D0iloppa/sun-sang.git
 	branch = main
+[submodule "doil-secretary"]
+	path = doil-secretary
+	url = https://github.com/D0iloppa/doil-secretary.git
+	branch = main
