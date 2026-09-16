@@ -22,3 +22,7 @@
 	path = doil-secretary
 	url = https://github.com/D0iloppa/doil-secretary.git
 	branch = main
+[submodule "d-tools"]
+	path = d-tools
+	url = https://github.com/D0iloppa/d-tools.git
+	branch = main
