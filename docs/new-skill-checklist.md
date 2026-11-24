@@ -41,7 +41,7 @@ doil-secretary는 5번이 비어 있어 Claude Code CLI 세션에는 `mcp__doil-
 - `.gitmodules`와 git 인덱스(mode 160000)에 서브모듈 **7개**: ai-echo, d-tools, doil-bootstrap, doil-research, doil-secretary, doil-supervise, sun-sang. 모두 `https://github.com/D0iloppa/<name>.git`, `branch = main`.
 - README 표는 ai-echo와 doil-secretary를 "(로컬 폴더, 서브모듈 아님)"이라고 쓰지만 **사실이 아니다**. 둘 다 서브모듈이다(각 폴더에 `.git` 파일, `git submodule status`에 나옴). README는 d-tools와 explain-diff를 아예 수록하지 않는다.
 - `explain-diff`는 서브모듈이 아니라 집계 repo에 파일이 직접 커밋된 평범한 폴더다. 즉 지금은 두 방식이 섞여 있다. **기본은 서브모듈**이다.
-- doil-secretary 서브모듈은 `feat/console-calendar-memo` 브랜치(a31499e, origin에 push됨)를 가리키고, 폴더 안 `.claude/`가 ignore되지 않아 `git status`에 ` ?`가 뜬다. ai-echo는 브랜치가 아니라 detached(8b6a8db)다.
+- doil-secretary 서브모듈은 `main` 브랜치를 가리킨다. 폴더 안 `.claude/`는 2026-11-24 doil-secretary `.gitignore`에 추가해(c64e9fe) `git status`에 ` ?`가 뜨지 않는다. ai-echo도 2026-11-24부터 detached가 아니라 `main`이다(c450806). (작성 당시 2026-10-18에는 secretary가 `feat/console-calendar-memo`(a31499e), ai-echo가 detached(8b6a8db)였다.)
 - 이 문서를 쓰는 동안 집계 repo에 `doil-health/`(docs만 있는 untracked 폴더)가 생겼다. 서브모듈로 붙이려면 독립 repo를 먼저 만들고 그 repo를 이 경로에 clone하거나, 폴더를 치운 뒤 `git submodule add`를 한다(이미 있는 비-repo 폴더에는 add가 거부된다).
 
 신규 스킬 repo 절차:
