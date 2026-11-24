@@ -4,3 +4,6 @@
 
 # Python bytecode
 __pycache__/
+
+# 비공개 스킬(사내 Confluence 구조·id 포함) — 외부 공개 안 함
+wellconn-confluence/
